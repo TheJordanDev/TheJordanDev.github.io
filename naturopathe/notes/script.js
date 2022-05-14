@@ -30,10 +30,19 @@ function addChangeToText(what) {
     addButton.appendTo(what);
 }
 
+function addDelete(ul, li) {
+    let addButton = $("<button>").html('<i class="fas fa-solid fa-trash-alt"></i>');
+    addButton.on('click', function(e) {
+        e.preventDefault();
+        ul.remove();
+    });
+    addButton.appendTo(li);
+}
+
 function changeToText(what) {
     if (what.children("input[type=text]").length == 1) {
         let area = $(document.createElement("textarea"));
-        area.attr("id",what.attr("id"));
+        area.attr("id",what.attr("id")).width("15rem").height("3.5rem");
         what.children("input[type=text]").first().replaceWith(area);
     } else {
         let area = $(document.createElement("input"));
@@ -54,8 +63,9 @@ function addElement(what) {
     ul.appendTo(what);
     addColorPicker(li);
     input.appendTo(li);
-    addButton(li);
     addChangeToText(li)
+    addDelete(ul,li);
+    addButton(li);
 }
 
 function getPath(element) {
@@ -72,4 +82,26 @@ function getPath(element) {
     }
     path = `root.${path}`;
     return path;
+}
+
+function toJsonObj(root) {
+    let obj = [];
+    obj.push(childrenToObj(root));
+}
+
+function childrenToObj(element) {
+    let objects = [];
+    element.children("ul").each(function(index, element) {
+        let obj = {};
+        obj.id = $(element).attr('id');
+        obj.color = $(element).children("input[type=color]").first().val();
+        if ($(element).children("input[type=text]").length == 1)
+            obj.text = $(element).children("input[type=text]").first().val();
+        else
+            obj.text = $(element).children("textarea").first().val();
+        obj.children = childrenToObj($(element));
+        objects.push(obj);
+    });
+    return objects;
+    
 }
