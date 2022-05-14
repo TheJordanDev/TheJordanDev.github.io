@@ -31,10 +31,10 @@ function addChangeToText(what) {
 }
 
 function changeToText(what) {
-    if (what.children("input[type='text']").length == 1) {
+    if (what.children("input[type=text]").length == 1) {
         let area = $(document.createElement("textarea"));
         area.attr("id",what.attr("id"));
-        what.children("input").first().replaceWith(area);
+        what.children("input[type=text]").first().replaceWith(area);
     } else {
         let area = $(document.createElement("input"));
         area.attr("id",what.attr("id")).attr("type","text");
@@ -48,6 +48,8 @@ function addElement(what) {
     let li = $("<li>").attr('id',`${what.attr("id")}:${children}`);
     
     let input = $("<input>");
+    input.attr("type","text");
+
     li.appendTo(ul);
     ul.appendTo(what);
     addColorPicker(li);
