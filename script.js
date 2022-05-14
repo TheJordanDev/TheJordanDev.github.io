@@ -31,7 +31,7 @@ function addChangeToText(what) {
 }
 
 function changeToText(what) {
-    if (what.children("input").length == 1) {
+    if (what.children("input[type='text']").length == 1) {
         let area = $(document.createElement("textarea"));
         area.attr("id",what.attr("id"));
         what.children("input").first().replaceWith(area);
