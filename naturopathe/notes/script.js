@@ -56,16 +56,22 @@ function addElement(what) {
     let ul = $("<ul>");
     let li = $("<li>").attr('id',`${what.attr("id")}:${children}`);
     
+    let div = $("<div>");
+
     let input = $("<input>");
     input.attr("type","text");
 
+    addColorPicker(div);
+    input.appendTo(div);
+    addChangeToText(div)
+    addDelete(ul,div);
+    addButton(div);
+
+    div.appendTo(li);
+
     li.appendTo(ul);
     ul.appendTo(what);
-    addColorPicker(li);
-    input.appendTo(li);
-    addChangeToText(li)
-    addDelete(ul,li);
-    addButton(li);
+    $("div#main").scrollLeft(window.outerWidth);
 }
 
 function getPath(element) {

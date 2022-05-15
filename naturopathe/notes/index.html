@@ -9,28 +9,50 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <title>Document</title>
     <style>
-label,
-textarea{
-  display:inline-block;
-  vertical-align:middle;
+        label,
+        textarea{
+        display:inline-block;
+        vertical-align:middle;
 
-}
-input[type="color"] {
-    width: 2rem;
-    height: 2rem;
-    background-color: transparent;
-    border: 0;
-    border-radius: 100%;
-  display:inline-block;
-  vertical-align:middle;
-}
+        }
+        input[type="color"] {
+            width: 2rem;
+            height: 2rem;
+            background-color: transparent;
+            border: 0;
+            border-radius: 100%;
+            display:inline-block;
+            vertical-align:middle;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        div#main {
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+            overflow-x:scroll;
+            white-space: nowrap;
+        }
+
     </style>
 </head>
 <body onload="main();">
     <h1>Bonjour</h1>
-    <form id="main-form">
-        <div id="root">
-        </div>
-    </form>
+    <div id="main">
+        <form id="main-form">
+            <div id="root">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
