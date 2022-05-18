@@ -40,15 +40,20 @@ function addDelete(ul, li) {
 }
 
 function changeToText(what) {
+    let text = what.text();
+    console.log(text);
     if (what.children("input[type=text]").length == 1) {
         let area = $(document.createElement("textarea"));
         area.attr("id",what.attr("id")).width("15rem").height("3.5rem");
         what.children("input[type=text]").first().replaceWith(area);
+        area.text(text);
     } else {
         let area = $(document.createElement("input"));
         area.attr("id",what.attr("id")).attr("type","text");
         what.children("textarea").first().replaceWith(area);
+        area.val(text);
     }
+    
 }
 
 function addElement(what) {
@@ -91,23 +96,26 @@ function getPath(element) {
 }
 
 function toJsonObj(root) {
-    let obj = [];
-    obj.push(childrenToObj(root));
+    return childrenToObj(root);
 }
 
 function childrenToObj(element) {
     let objects = [];
-    element.children("ul").each(function(index, element) {
-        let obj = {};
-        obj.id = $(element).attr('id');
-        obj.color = $(element).children("input[type=color]").first().val();
-        if ($(element).children("input[type=text]").length == 1)
-            obj.text = $(element).children("input[type=text]").first().val();
-        else
-            obj.text = $(element).children("textarea").first().val();
-        obj.children = childrenToObj($(element));
+    element.children("ul").each((i, e) => {
+        let container = $(e).children("li").first().children("div").first();
+        let multiline = container.children("textarea").length > 0;
+        let text = multiline ? container.children("textarea").first().val() : container.children("input[type=text]").first().val();
+        let obj = {
+            "color": container.children("input[type=color]").first().val(),
+            "text": text,
+            "multiline": multiline,
+            "children": childrenToObj($(container))
+        };
         objects.push(obj);
     });
     return objects;
-    
+}
+
+function parseTo() {
+    $("#jsonOutput").text(JSON.stringify(toJsonObj($("#root")),null,4));
 }
