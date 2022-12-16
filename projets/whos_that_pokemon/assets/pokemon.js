@@ -27,7 +27,7 @@ const typesColors = {
 const cries_blacklist = [899,900,901,902,903,904];
 
 function getPokemonCry(pokemon) {
-    return `https://play.pokemonshowdown.com/audio/cries/${pokemon}.mp3`
+    return `https://play.pokemonshowdown.com/audio/cries/${pokemon.replace("-","")}.mp3`
 }
 
 async function getPokemonIcon(pokemon) {
