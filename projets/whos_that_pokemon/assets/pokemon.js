@@ -73,8 +73,3 @@ function getRandomForm(pokemon) {
     let index = rand(0,pokemon["forms"].length-1);
     return pokemon["forms"][index];
 }
-
-
-function getCry(pokemon) {
-    return `https://pokemoncries.com/cries/${pokemon["dex"]}.mp3`;
-}

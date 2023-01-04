@@ -34,7 +34,7 @@ async function setup() {
         let starter = getRandomStarter(generation["name"]);
         formContent += `
             <input type="checkbox" value="${generation.name}" class="btn-check" id="btn-${generation.name}" autocomplete="off">
-            <label style="min-width: 19%; text-align:left; padding-left:6px; margin-bottom: 1%;" class="btn btn-outline-primary" for="btn-${generation.name}"><img class="pixelart pokemon-btn img-fluid" style="margin:-15px" width="100px" src="${starter["forms"][0]["sprites"]}"/><span language-element="generation" generation="${generation.name}">${getName(generation)}</span></label>
+            <label style="min-width: 19%; text-align:left; padding-left:6px; margin-bottom: 1%;" class="btn btn-outline-primary" for="btn-${generation.name}"><img class="pixelart pokemon-btn img-fluid" style="margin:-15px" width="100px" src="${starter["forms"][0]["sprite"]}"/><span language-element="generation" generation="${generation.name}">${getName(generation)}</span></label>
         `;
     }
     formContent += `<br>

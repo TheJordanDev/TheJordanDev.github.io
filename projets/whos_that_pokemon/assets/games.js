@@ -79,8 +79,8 @@ class CriesGame extends Game {
                     let returned = pkmn;
                     let form0 = pkmn["forms"][0];
                     returned["types"] = form0["types"];
-                    returned["cry"] = form0["cries"];
-                    returned["sprite"] = form0["sprites"]; 
+                    returned["cry"] = form0["cry"];
+                    returned["sprite"] = form0["sprite"]; 
                     return returned;
                 })
             );
@@ -124,7 +124,7 @@ class CriesGame extends Game {
     }
 
     async draw(){
-        $(`audio#pokemon_cry`).attr("src",getCry(this.listening));
+        $(`audio#pokemon_cry`).attr("src",this.listening["cry"]);
         for (let index = 0; index < this.currentPokemons.length; index++) {
             const pokemon = this.currentPokemons[index];
             let colors = [typesColors[pokemon["types"][0]]];
@@ -177,7 +177,7 @@ class CriesGame extends Game {
             $("div#history-modal-body").append($(`
                 <div class="row" style="background-color:${round["result"] ? "#008000" : "#ff0000" }">
                     <div class="col">
-                        <audio id="histo-pokemon-true-${i}" src="${getCry(round["pokemon"])}"/></audio>
+                        <audio id="histo-pokemon-true-${i}" src="${round["pokemon"]["cry"]}"/></audio>
                         <figure>
                             <button id="histo-play-true-${i}">
                                 <img class="pixelart img-fluid" width="100px" src="${round["pokemon"]["sprite"]}">
@@ -186,7 +186,7 @@ class CriesGame extends Game {
                         </figure>
                     </div>
                     <div class="col">
-                        <audio id="histo-pokemon-guessed-${i}" src="${getCry(round["guessed"])}"></audio>
+                        <audio id="histo-pokemon-guessed-${i}" src="${round["guessed"]["cry"]}"></audio>
                         <figure>
                             <button id="histo-play-guessed-${i}">
                                 <img class="pixelart img-fluid" width="100px" src="${round["guessed"]["sprite"]}">
@@ -263,7 +263,7 @@ class SilhouetteGame extends Game {
         this.alreadyShown.push(this.shownPokemon);
         this.sprite = new Image(200, 200);
         this.sprite.crossOrigin = "anonymous";
-        this.sprite.src = this.shownPokemon["sprites"];
+        this.sprite.src = this.shownPokemon["sprite"];
         this.sprite.addEventListener("load", (e)=>{this.draw()});
     }
 
