@@ -1,5 +1,7 @@
 const customOptions = { protocol: "https", versionPath: "/api/v2/", cache: true, timeout: 5 * 1000, cacheImages: true }
-const P = new Pokedex.Pokedex(customOptions);
+
+const generations = [];
+let languages = [];
 
 const typesColors = {
     "normal":"#A8A77A",
@@ -26,53 +28,53 @@ const typesColors = {
 
 const cries_blacklist = [899,900,901,902,903,904];
 
-function getPokemonCry(pokemon) {
-    return `https://play.pokemonshowdown.com/audio/cries/${pokemon.replace("-","")}.mp3`
+async function loadLanguages() {
+    languages = languages.concat(await $.get("./assets/data/languages.json"));
 }
 
-async function getPokemonIcon(pokemon) {
-    let data = await P.getPokemonByName(pokemon);
-    if (data.sprites.versions['generation-v']['black-white'].front_default == null) {
-        return data.sprites.front_default
-    } else {
-        return data.sprites.versions['generation-v']['black-white'].front_default;
+async function loadPokemons() {
+    let gens = await $.get("./assets/data/generations.json");
+    for (const _gen of gens) {
+        let gen = await $.get(`./assets/data/${_gen["name"]}.json`);
+        generations.push(gen);
     }
 }
 
-function getGenerations() {
-    return new Promise((resolve,reject)=>{
-        P.getGenerationsList().then((response)=>{
-            resolve(response);
-        })
-    });
+function filterGeneration(filter) {
+    return generations.filter(filter);
 }
 
-function getRandomPokemonFromGeneration(generation) {
-    let species = generation.pokemon_species;
-    return species[species.length * Math.random() | 0];
+function filterLanguage(filter) {
+    return languages.filter(filter);
 }
 
-function getGenerationData(name) {
-    return new Promise((resolve,reject)=>{
-        P.getGenerationByName(name).then((response)=>{
-            resolve(response);
-        })
-    });
+function filterPokemon(filter) {
+    return generations
+        .map(_gen=>_gen["pokemons"])
+        .flat()
+        .filter(filter);
 }
 
-function getSpeciesData(dex) {
-    return new Promise((resolve,reject)=>{
-        P.getPokemonSpeciesByName(dex).then((response)=>{
-            resolve(response);
-        });
-    });
-
+function getName(element) {
+    let trads = element["names"].filter((v)=>{return v["language"]["name"] === language});
+    if (trads.length == 0) {
+        return element["names"].filter((v)=>{return v["language"]["name"] === "en"})[0]["name"];
+    }
+    return trads[0]["name"];
 }
 
-function getPokemonData(dex) {
-    return new Promise((resolve, reject)=>{        
-        P.getPokemonByName(dex).then((response)=>{
-            resolve(response);
-        });
-    });
+function getRandomStarter(generation) {
+    let gen = filterGeneration((v,i)=>v["name"] == generation)[0];
+    let starterOffset = (gen["id"] == 5) ? 1 : 0;
+    return gen["pokemons"][rand(0,2)+starterOffset];
+}
+
+function getRandomForm(pokemon) {
+    let index = rand(0,pokemon["forms"].length-1);
+    return pokemon["forms"][index];
+}
+
+
+function getCry(pokemon) {
+    return `https://pokemoncries.com/cries/${pokemon["dex"]}.mp3`;
 }

@@ -13,7 +13,7 @@ body {
 }
 
 
-select { overflow-y: hidden; overflow-x: hidden; }
+select { overflow-y: hidden; overflow-x: hidden; background: none;}
 option {color: black !important; }
 
 input[type="text"] {
@@ -42,4 +42,8 @@ canvas {
 
 img.pokemon-btn {
     margin: -10px;
+}
+
+.modal * {
+    color: black !important;
 }
