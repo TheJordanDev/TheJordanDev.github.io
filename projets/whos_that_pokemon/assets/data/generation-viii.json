@@ -4,13 +4,6 @@
     "names": [
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "https://pokeapi.co/api/v2/language/1/"
-            },
-            "name": "だいななせだい"
-        },
-        {
-            "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
             },
@@ -43,13 +36,6 @@
                 "url": "https://pokeapi.co/api/v2/language/9/"
             },
             "name": "Generation VIII"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "https://pokeapi.co/api/v2/language/8/"
-            },
-            "name": "Generazione VII"
         },
         {
             "language": {
@@ -147,8 +133,8 @@
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/grookey.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/810.png"
+                    "cry": "https://pokemoncries.com/cries/810.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/810.png"
                 }
             ]
         },
@@ -239,8 +225,8 @@
                     "types": [
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/scorbunny.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/813.png"
+                    "cry": "https://pokemoncries.com/cries/813.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/813.png"
                 }
             ]
         },
@@ -331,8 +317,8 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sobble.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/816.png"
+                    "cry": "https://pokemoncries.com/cries/816.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/816.png"
                 }
             ]
         },
@@ -423,8 +409,8 @@
                     "types": [
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/skwovet.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/819.png"
+                    "cry": "https://pokemoncries.com/cries/819.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/819.png"
                 }
             ]
         },
@@ -515,8 +501,8 @@
                     "types": [
                         "flying"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/rookidee.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/821.png"
+                    "cry": "https://pokemoncries.com/cries/821.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/821.png"
                 }
             ]
         },
@@ -607,8 +593,8 @@
                     "types": [
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/blipbug.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/824.png"
+                    "cry": "https://pokemoncries.com/cries/824.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/824.png"
                 }
             ]
         },
@@ -699,8 +685,8 @@
                     "types": [
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/nickit.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/827.png"
+                    "cry": "https://pokemoncries.com/cries/827.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/827.png"
                 }
             ]
         },
@@ -791,8 +777,8 @@
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/gossifleur.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/829.png"
+                    "cry": "https://pokemoncries.com/cries/829.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/829.png"
                 }
             ]
         },
@@ -883,8 +869,8 @@
                     "types": [
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/wooloo.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/831.png"
+                    "cry": "https://pokemoncries.com/cries/831.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/831.png"
                 }
             ]
         },
@@ -975,8 +961,8 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/chewtle.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/833.png"
+                    "cry": "https://pokemoncries.com/cries/833.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/833.png"
                 }
             ]
         },
@@ -1067,8 +1053,8 @@
                     "types": [
                         "electric"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/yamper.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/835.png"
+                    "cry": "https://pokemoncries.com/cries/835.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/835.png"
                 }
             ]
         },
@@ -1159,8 +1145,8 @@
                     "types": [
                         "rock"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/rolycoly.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/837.png"
+                    "cry": "https://pokemoncries.com/cries/837.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/837.png"
                 }
             ]
         },
@@ -1252,8 +1238,8 @@
                         "grass",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/applin.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/840.png"
+                    "cry": "https://pokemoncries.com/cries/840.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/840.png"
                 }
             ]
         },
@@ -1344,8 +1330,8 @@
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/thwackey.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/811.png"
+                    "cry": "https://pokemoncries.com/cries/811.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/811.png"
                 }
             ]
         },
@@ -1436,15 +1422,15 @@
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/rillaboom.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/812.png"
+                    "cry": "https://pokemoncries.com/cries/812.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/812.png"
                 },
                 {
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/rillaboomgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10209.png"
+                    "cry": "https://pokemoncries.com/cries/812.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10209.png"
                 }
             ]
         },
@@ -1535,8 +1521,8 @@
                     "types": [
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/raboot.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/814.png"
+                    "cry": "https://pokemoncries.com/cries/814.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/814.png"
                 }
             ]
         },
@@ -1627,15 +1613,15 @@
                     "types": [
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cinderace.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/815.png"
+                    "cry": "https://pokemoncries.com/cries/815.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/815.png"
                 },
                 {
                     "types": [
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cinderacegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10210.png"
+                    "cry": "https://pokemoncries.com/cries/815.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10210.png"
                 }
             ]
         },
@@ -1726,8 +1712,8 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/drizzile.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/817.png"
+                    "cry": "https://pokemoncries.com/cries/817.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/817.png"
                 }
             ]
         },
@@ -1818,15 +1804,15 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/inteleon.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/818.png"
+                    "cry": "https://pokemoncries.com/cries/818.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/818.png"
                 },
                 {
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/inteleongmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10211.png"
+                    "cry": "https://pokemoncries.com/cries/818.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10211.png"
                 }
             ]
         },
@@ -1917,8 +1903,8 @@
                     "types": [
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/greedent.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/820.png"
+                    "cry": "https://pokemoncries.com/cries/820.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/820.png"
                 }
             ]
         },
@@ -2009,8 +1995,8 @@
                     "types": [
                         "flying"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/corvisquire.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/822.png"
+                    "cry": "https://pokemoncries.com/cries/822.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/822.png"
                 }
             ]
         },
@@ -2102,16 +2088,16 @@
                         "flying",
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/corviknight.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/823.png"
+                    "cry": "https://pokemoncries.com/cries/823.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/823.png"
                 },
                 {
                     "types": [
                         "flying",
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/corviknightgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10212.png"
+                    "cry": "https://pokemoncries.com/cries/823.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10212.png"
                 }
             ]
         },
@@ -2203,8 +2189,8 @@
                         "bug",
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dottler.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/825.png"
+                    "cry": "https://pokemoncries.com/cries/825.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/825.png"
                 }
             ]
         },
@@ -2295,8 +2281,8 @@
                     "types": [
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/thievul.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/828.png"
+                    "cry": "https://pokemoncries.com/cries/828.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/828.png"
                 }
             ]
         },
@@ -2387,8 +2373,8 @@
                     "types": [
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/eldegoss.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/830.png"
+                    "cry": "https://pokemoncries.com/cries/830.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/830.png"
                 }
             ]
         },
@@ -2479,8 +2465,8 @@
                     "types": [
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dubwool.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/832.png"
+                    "cry": "https://pokemoncries.com/cries/832.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/832.png"
                 }
             ]
         },
@@ -2572,16 +2558,16 @@
                         "water",
                         "rock"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/drednaw.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/834.png"
+                    "cry": "https://pokemoncries.com/cries/834.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/834.png"
                 },
                 {
                     "types": [
                         "water",
                         "rock"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/drednawgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10214.png"
+                    "cry": "https://pokemoncries.com/cries/834.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10214.png"
                 }
             ]
         },
@@ -2672,8 +2658,8 @@
                     "types": [
                         "electric"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/boltund.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/836.png"
+                    "cry": "https://pokemoncries.com/cries/836.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/836.png"
                 }
             ]
         },
@@ -2765,8 +2751,8 @@
                         "rock",
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/carkol.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/838.png"
+                    "cry": "https://pokemoncries.com/cries/838.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/838.png"
                 }
             ]
         },
@@ -2858,16 +2844,16 @@
                         "rock",
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/coalossal.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/839.png"
+                    "cry": "https://pokemoncries.com/cries/839.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/839.png"
                 },
                 {
                     "types": [
                         "rock",
                         "fire"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/coalossalgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10215.png"
+                    "cry": "https://pokemoncries.com/cries/839.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10215.png"
                 }
             ]
         },
@@ -2959,16 +2945,16 @@
                         "grass",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/flapple.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/841.png"
+                    "cry": "https://pokemoncries.com/cries/841.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/841.png"
                 },
                 {
                     "types": [
                         "grass",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/flapplegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10216.png"
+                    "cry": "https://pokemoncries.com/cries/841.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10216.png"
                 }
             ]
         },
@@ -3060,16 +3046,16 @@
                         "grass",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/appletun.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/842.png"
+                    "cry": "https://pokemoncries.com/cries/842.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/842.png"
                 },
                 {
                     "types": [
                         "grass",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/appletungmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10217.png"
+                    "cry": "https://pokemoncries.com/cries/842.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10217.png"
                 }
             ]
         },
@@ -3160,8 +3146,8 @@
                     "types": [
                         "ground"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/silicobra.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/843.png"
+                    "cry": "https://pokemoncries.com/cries/843.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/843.png"
                 }
             ]
         },
@@ -3253,24 +3239,24 @@
                         "flying",
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cramorant.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/845.png"
+                    "cry": "https://pokemoncries.com/cries/845.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/845.png"
                 },
                 {
                     "types": [
                         "flying",
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cramorantgulping.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/845.mp3",
+                    "sprite": null
                 },
                 {
                     "types": [
                         "flying",
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cramorantgorging.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/845.mp3",
+                    "sprite": null
                 }
             ]
         },
@@ -3361,8 +3347,8 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/arrokuda.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/846.png"
+                    "cry": "https://pokemoncries.com/cries/846.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/846.png"
                 }
             ]
         },
@@ -3454,8 +3440,8 @@
                         "electric",
                         "poison"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/toxel.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/848.png"
+                    "cry": "https://pokemoncries.com/cries/848.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/848.png"
                 }
             ]
         },
@@ -3547,8 +3533,8 @@
                         "fire",
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sizzlipede.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/850.png"
+                    "cry": "https://pokemoncries.com/cries/850.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/850.png"
                 }
             ]
         },
@@ -3639,8 +3625,8 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/clobbopus.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/852.png"
+                    "cry": "https://pokemoncries.com/cries/852.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/852.png"
                 }
             ]
         },
@@ -3731,8 +3717,8 @@
                     "types": [
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sinistea.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/854.png"
+                    "cry": "https://pokemoncries.com/cries/854.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/854.png"
                 }
             ]
         },
@@ -3823,8 +3809,8 @@
                     "types": [
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/hatenna.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/856.png"
+                    "cry": "https://pokemoncries.com/cries/856.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/856.png"
                 }
             ]
         },
@@ -3916,8 +3902,8 @@
                         "dark",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/impidimp.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/859.png"
+                    "cry": "https://pokemoncries.com/cries/859.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/859.png"
                 }
             ]
         },
@@ -4008,8 +3994,8 @@
                     "types": [
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/milcery.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/868.png"
+                    "cry": "https://pokemoncries.com/cries/868.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/868.png"
                 }
             ]
         },
@@ -4100,8 +4086,8 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/falinks.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/870.png"
+                    "cry": "https://pokemoncries.com/cries/870.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/870.png"
                 }
             ]
         },
@@ -4192,8 +4178,8 @@
                     "types": [
                         "electric"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/pincurchin.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/871.png"
+                    "cry": "https://pokemoncries.com/cries/871.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/871.png"
                 }
             ]
         },
@@ -4285,8 +4271,8 @@
                         "ice",
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/snom.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/872.png"
+                    "cry": "https://pokemoncries.com/cries/872.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/872.png"
                 }
             ]
         },
@@ -4377,8 +4363,8 @@
                     "types": [
                         "rock"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/stonjourner.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/874.png"
+                    "cry": "https://pokemoncries.com/cries/874.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/874.png"
                 }
             ]
         },
@@ -4469,15 +4455,15 @@
                     "types": [
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/eiscueice.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/875.png"
+                    "cry": "https://pokemoncries.com/cries/875.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/875.png"
                 },
                 {
                     "types": [
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/eiscuenoice.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10185.png"
+                    "cry": "https://pokemoncries.com/cries/875.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10185.png"
                 }
             ]
         },
@@ -4569,16 +4555,16 @@
                         "psychic",
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/indeedeemale.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/876.png"
+                    "cry": "https://pokemoncries.com/cries/876.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/876.png"
                 },
                 {
                     "types": [
                         "psychic",
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/indeedeefemale.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10186.png"
+                    "cry": "https://pokemoncries.com/cries/876.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10186.png"
                 }
             ]
         },
@@ -4670,16 +4656,16 @@
                         "electric",
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/morpekofullbelly.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/877.png"
+                    "cry": "https://pokemoncries.com/cries/877.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/877.png"
                 },
                 {
                     "types": [
                         "electric",
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/morpekohangry.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/877.mp3",
+                    "sprite": null
                 }
             ]
         },
@@ -4770,8 +4756,8 @@
                     "types": [
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cufant.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/878.png"
+                    "cry": "https://pokemoncries.com/cries/878.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/878.png"
                 }
             ]
         },
@@ -4863,8 +4849,8 @@
                         "electric",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dracozolt.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/880.png"
+                    "cry": "https://pokemoncries.com/cries/880.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/880.png"
                 }
             ]
         },
@@ -4956,8 +4942,8 @@
                         "electric",
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/arctozolt.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/881.png"
+                    "cry": "https://pokemoncries.com/cries/881.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/881.png"
                 }
             ]
         },
@@ -5049,8 +5035,8 @@
                         "water",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dracovish.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/882.png"
+                    "cry": "https://pokemoncries.com/cries/882.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/882.png"
                 }
             ]
         },
@@ -5142,8 +5128,8 @@
                         "water",
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/arctovish.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/883.png"
+                    "cry": "https://pokemoncries.com/cries/883.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/883.png"
                 }
             ]
         },
@@ -5235,16 +5221,16 @@
                         "steel",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/duraludon.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/884.png"
+                    "cry": "https://pokemoncries.com/cries/884.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/884.png"
                 },
                 {
                     "types": [
                         "steel",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/duraludongmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10225.png"
+                    "cry": "https://pokemoncries.com/cries/884.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10225.png"
                 }
             ]
         },
@@ -5336,8 +5322,8 @@
                         "dragon",
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dreepy.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/885.png"
+                    "cry": "https://pokemoncries.com/cries/885.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/885.png"
                 }
             ]
         },
@@ -5428,16 +5414,16 @@
                     "types": [
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zacian.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/888.png"
+                    "cry": "https://pokemoncries.com/cries/888.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/888.png"
                 },
                 {
                     "types": [
                         "fairy",
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zaciancrowned.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10188.png"
+                    "cry": "https://pokemoncries.com/cries/888.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10188.png"
                 }
             ]
         },
@@ -5528,16 +5514,16 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zamazenta.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/889.png"
+                    "cry": "https://pokemoncries.com/cries/889.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/889.png"
                 },
                 {
                     "types": [
                         "fighting",
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zamazentacrowned.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10189.png"
+                    "cry": "https://pokemoncries.com/cries/889.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10189.png"
                 }
             ]
         },
@@ -5629,16 +5615,16 @@
                         "poison",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/eternatus.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/890.png"
+                    "cry": "https://pokemoncries.com/cries/890.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/890.png"
                 },
                 {
                     "types": [
                         "poison",
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/eternatuseternamax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10190.png"
+                    "cry": "https://pokemoncries.com/cries/890.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10190.png"
                 }
             ]
         },
@@ -5729,8 +5715,8 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/kubfu.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/891.png"
+                    "cry": "https://pokemoncries.com/cries/891.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/891.png"
                 }
             ]
         },
@@ -5822,16 +5808,16 @@
                         "dark",
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zarude.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/893.png"
+                    "cry": "https://pokemoncries.com/cries/893.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/893.png"
                 },
                 {
                     "types": [
                         "dark",
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/zarudedada.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/893.mp3",
+                    "sprite": null
                 }
             ]
         },
@@ -5922,8 +5908,8 @@
                     "types": [
                         "electric"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/regieleki.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/894.png"
+                    "cry": "https://pokemoncries.com/cries/894.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/894.png"
                 }
             ]
         },
@@ -6014,8 +6000,8 @@
                     "types": [
                         "dragon"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/regidrago.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/895.png"
+                    "cry": "https://pokemoncries.com/cries/895.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/895.png"
                 }
             ]
         },
@@ -6106,8 +6092,8 @@
                     "types": [
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/glastrier.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/896.png"
+                    "cry": "https://pokemoncries.com/cries/896.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/896.png"
                 }
             ]
         },
@@ -6198,8 +6184,8 @@
                     "types": [
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/spectrier.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/897.png"
+                    "cry": "https://pokemoncries.com/cries/897.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/897.png"
                 }
             ]
         },
@@ -6291,24 +6277,24 @@
                         "psychic",
                         "grass"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/calyrex.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/898.png"
+                    "cry": "https://pokemoncries.com/cries/898.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/898.png"
                 },
                 {
                     "types": [
                         "psychic",
                         "ice"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/calyrexice.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10193.png"
+                    "cry": "https://pokemoncries.com/cries/898.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10193.png"
                 },
                 {
                     "types": [
                         "psychic",
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/calyrexshadow.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10194.png"
+                    "cry": "https://pokemoncries.com/cries/898.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10194.png"
                 }
             ]
         },
@@ -6393,16 +6379,16 @@
                         "fairy",
                         "flying"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/enamorusincarnate.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/905.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/905.png"
                 },
                 {
                     "types": [
                         "fairy",
                         "flying"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/enamorustherian.mp3",
-                    "sprites": null
+                    "cry": "https://pokemoncries.com/cries/905.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10249.png"
                 }
             ]
         },
@@ -6493,8 +6479,8 @@
                     "types": [
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/barraskewda.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/847.png"
+                    "cry": "https://pokemoncries.com/cries/847.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/847.png"
                 }
             ]
         },
@@ -6586,32 +6572,32 @@
                         "electric",
                         "poison"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/toxtricityamped.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/849.png"
+                    "cry": "https://pokemoncries.com/cries/849.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/849.png"
                 },
                 {
                     "types": [
                         "electric",
                         "poison"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/toxtricitylowkey.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10184.png"
+                    "cry": "https://pokemoncries.com/cries/849.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10184.png"
                 },
                 {
                     "types": [
                         "electric",
                         "poison"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/toxtricityampedgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10219.png"
+                    "cry": "https://pokemoncries.com/cries/849.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10219.png"
                 },
                 {
                     "types": [
                         "electric",
                         "poison"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/toxtricitylowkeygmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10228.png"
+                    "cry": "https://pokemoncries.com/cries/849.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10228.png"
                 }
             ]
         },
@@ -6703,16 +6689,16 @@
                         "fire",
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/centiskorch.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/851.png"
+                    "cry": "https://pokemoncries.com/cries/851.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/851.png"
                 },
                 {
                     "types": [
                         "fire",
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/centiskorchgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10220.png"
+                    "cry": "https://pokemoncries.com/cries/851.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10220.png"
                 }
             ]
         },
@@ -6803,8 +6789,8 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/grapploct.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/853.png"
+                    "cry": "https://pokemoncries.com/cries/853.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/853.png"
                 }
             ]
         },
@@ -6895,8 +6881,8 @@
                     "types": [
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/polteageist.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/855.png"
+                    "cry": "https://pokemoncries.com/cries/855.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/855.png"
                 }
             ]
         },
@@ -6987,8 +6973,8 @@
                     "types": [
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/hattrem.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/857.png"
+                    "cry": "https://pokemoncries.com/cries/857.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/857.png"
                 }
             ]
         },
@@ -7080,16 +7066,16 @@
                         "psychic",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/hatterene.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/858.png"
+                    "cry": "https://pokemoncries.com/cries/858.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/858.png"
                 },
                 {
                     "types": [
                         "psychic",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/hatterenegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10221.png"
+                    "cry": "https://pokemoncries.com/cries/858.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10221.png"
                 }
             ]
         },
@@ -7181,8 +7167,8 @@
                         "dark",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/morgrem.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/860.png"
+                    "cry": "https://pokemoncries.com/cries/860.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/860.png"
                 }
             ]
         },
@@ -7274,16 +7260,16 @@
                         "dark",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/grimmsnarl.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/861.png"
+                    "cry": "https://pokemoncries.com/cries/861.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/861.png"
                 },
                 {
                     "types": [
                         "dark",
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/grimmsnarlgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10222.png"
+                    "cry": "https://pokemoncries.com/cries/861.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10222.png"
                 }
             ]
         },
@@ -7375,8 +7361,8 @@
                         "dark",
                         "normal"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/obstagoon.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/862.png"
+                    "cry": "https://pokemoncries.com/cries/862.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/862.png"
                 }
             ]
         },
@@ -7467,8 +7453,8 @@
                     "types": [
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/perrserker.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/863.png"
+                    "cry": "https://pokemoncries.com/cries/863.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/863.png"
                 }
             ]
         },
@@ -7559,8 +7545,8 @@
                     "types": [
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/cursola.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/864.png"
+                    "cry": "https://pokemoncries.com/cries/864.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/864.png"
                 }
             ]
         },
@@ -7652,8 +7638,8 @@
                         "ice",
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/mrrime.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/866.png"
+                    "cry": "https://pokemoncries.com/cries/866.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/866.png"
                 }
             ]
         },
@@ -7745,8 +7731,8 @@
                         "ground",
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/runerigus.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/867.png"
+                    "cry": "https://pokemoncries.com/cries/867.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/867.png"
                 }
             ]
         },
@@ -7837,15 +7823,15 @@
                     "types": [
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/alcremie.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/869.png"
+                    "cry": "https://pokemoncries.com/cries/869.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/869.png"
                 },
                 {
                     "types": [
                         "fairy"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/alcremiegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10223.png"
+                    "cry": "https://pokemoncries.com/cries/869.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10223.png"
                 }
             ]
         },
@@ -7937,8 +7923,8 @@
                         "ice",
                         "bug"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/frosmoth.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/873.png"
+                    "cry": "https://pokemoncries.com/cries/873.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/873.png"
                 }
             ]
         },
@@ -8029,15 +8015,15 @@
                     "types": [
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/copperajah.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/879.png"
+                    "cry": "https://pokemoncries.com/cries/879.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/879.png"
                 },
                 {
                     "types": [
                         "steel"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/copperajahgmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10224.png"
+                    "cry": "https://pokemoncries.com/cries/879.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10224.png"
                 }
             ]
         },
@@ -8129,8 +8115,8 @@
                         "dragon",
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/drakloak.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/886.png"
+                    "cry": "https://pokemoncries.com/cries/886.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/886.png"
                 }
             ]
         },
@@ -8222,8 +8208,8 @@
                         "dragon",
                         "ghost"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/dragapult.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/887.png"
+                    "cry": "https://pokemoncries.com/cries/887.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/887.png"
                 }
             ]
         },
@@ -8315,32 +8301,32 @@
                         "fighting",
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/urshifusinglestrike.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/892.png"
+                    "cry": "https://pokemoncries.com/cries/892.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/892.png"
                 },
                 {
                     "types": [
                         "fighting",
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/urshifurapidstrike.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10191.png"
+                    "cry": "https://pokemoncries.com/cries/892.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10191.png"
                 },
                 {
                     "types": [
                         "fighting",
                         "dark"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/urshifusinglestrikegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10226.png"
+                    "cry": "https://pokemoncries.com/cries/892.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10226.png"
                 },
                 {
                     "types": [
                         "fighting",
                         "water"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/urshifurapidstrikegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10227.png"
+                    "cry": "https://pokemoncries.com/cries/892.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10227.png"
                 }
             ]
         },
@@ -8425,7 +8411,7 @@
                         "normal",
                         "psychic"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png"
                 }
             ]
         },
@@ -8510,7 +8496,7 @@
                         "bug",
                         "rock"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png"
                 }
             ]
         },
@@ -8595,7 +8581,7 @@
                         "ground",
                         "normal"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
                 }
             ]
         },
@@ -8680,14 +8666,14 @@
                         "water",
                         "ghost"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png"
                 },
                 {
                     "types": [
                         "water",
                         "ghost"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png"
                 }
             ]
         },
@@ -8772,7 +8758,7 @@
                         "fighting",
                         "poison"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
                 }
             ]
         },
@@ -8857,7 +8843,7 @@
                         "dark",
                         "poison"
                     ],
-                    "sprites": null
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png"
                 }
             ]
         },
@@ -8949,16 +8935,16 @@
                         "bug",
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/orbeetle.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/826.png"
+                    "cry": "https://pokemoncries.com/cries/826.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/826.png"
                 },
                 {
                     "types": [
                         "bug",
                         "psychic"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/orbeetlegmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10213.png"
+                    "cry": "https://pokemoncries.com/cries/826.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10213.png"
                 }
             ]
         },
@@ -9049,15 +9035,15 @@
                     "types": [
                         "ground"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sandaconda.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/844.png"
+                    "cry": "https://pokemoncries.com/cries/844.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/844.png"
                 },
                 {
                     "types": [
                         "ground"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sandacondagmax.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10218.png"
+                    "cry": "https://pokemoncries.com/cries/844.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10218.png"
                 }
             ]
         },
@@ -9148,8 +9134,8 @@
                     "types": [
                         "fighting"
                     ],
-                    "cries": "https://play.pokemonshowdown.com/audio/cries/sirfetchd.mp3",
-                    "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/865.png"
+                    "cry": "https://pokemoncries.com/cries/865.mp3",
+                    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/865.png"
                 }
             ]
         }
